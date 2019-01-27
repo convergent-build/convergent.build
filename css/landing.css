@@ -1,0 +1,22 @@
+.title {
+  font-family: 'Source Serif Pro', serif;
+}
+
+#cal-logo > * {
+  height: 5rem;
+  margin: 2rem;
+}
+
+#texas-logo > * {
+  height: 5rem;
+  margin: 2rem;
+}
+
+a {
+  opacity: 0.3;
+  border: 0;
+}
+a:hover {
+  opacity: 1.0;
+  border: 0;
+}
