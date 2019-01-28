@@ -5,18 +5,41 @@
 #cal-logo > * {
   height: 5rem;
   margin: 2rem;
+  margin-left: 0;
+  margin-bottom: 1rem;
 }
 
 #texas-logo > * {
   height: 5rem;
   margin: 2rem;
+  margin-bottom: 1rem;
 }
 
-a {
+.chapter-column {
   opacity: 0.3;
   border: 0;
 }
-a:hover {
+.chapter-column:hover {
   opacity: 1.0;
   border: 0;
+}
+
+#cal-subtitle {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #texas-logo {
+    margin-left: -2rem;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  #texas-subtitle{
+    margin-right: -2rem;
+  }
+  #cal-subtitle{
+    margin-left: 0;
+    margin-right: -1rem;
+  }
 }
