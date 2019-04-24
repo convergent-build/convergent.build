@@ -8,7 +8,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Source Serif Pro', serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bread,
+a.lead {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #0099FF;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.1s ease-out;
+}
+
+.bread:hover,
+a.lead:hover {
+  background-position: -99.99% 0;
+  color: #152a49;
+}
+
+/* .card-img-top {
+  padding: 30px;
+} */
+
+#cal-logo {
+  height: 5rem;
+  padding-bottom: 1rem;
+}
+
+#texas-logo {
+  height: 5rem;
+  padding-bottom: 1rem;
 }
