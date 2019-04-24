@@ -38,5 +38,6 @@
   "devDependencies": {
     "@types/ramda": "types/npm-ramda#dist",
     "@types/storejs": "^2.0.3"
-  }
+  },
+  "homepage": "./"
 }
